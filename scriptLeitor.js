@@ -1,5 +1,4 @@
 leitura = ''
-let txtEntradaCartao = document.getElementById('txtEntradaCartao')
 document.addEventListener('keypress', monitoramentoLeitor)
 
 
