@@ -19,8 +19,10 @@ function pessoaPorCartao(leituraCartao){
     if(leituraCartao=='0005162117'){
         document.getElementById('h2Pessoa').innerText = 'Renan'
     }
-
-    if(leituraCartao=='0005162307'){
+    else if(leituraCartao=='0005162307'){
         document.getElementById('h2Pessoa').innerText = 'Willian'
+    }
+    else{
+        document.getElementById('h2Pessoa').innerText = 'Cartão de número '+leituraCartao+' não cadastrado!'
     }
 }
